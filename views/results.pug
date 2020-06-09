@@ -1,0 +1,57 @@
+extends layout
+
+block styles
+  link(
+    rel='stylesheet'
+    type='text/css'
+    href='https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css'
+  )
+
+block content
+  .ui.container
+    h1.ui.center.aligned RESULTADOS DEL TEST DE AFINIDAD
+    table.ui.basic.table.unstackable
+      thead.ui.center.aligned
+        th
+        each item in results
+          th= item.name
+      tbody
+        tr
+          td
+            h2 % DE AFINIDAD
+          each item in results
+            td.center.aligned
+              strong= item.percentage
+        each val, index in questions
+          tr
+            td
+              p
+                strong= questions[index]
+                br
+                em= choices[index]
+            each item in results
+              if item.scores[index] === -1
+                td.center.aligned.negative
+                  i(class="close icon")
+              else if item.scores[index] === 0
+                td.center.aligned
+                  i(class="minus icon")
+              else
+                td.center.aligned.positive
+                  i(class="check icon")
+        tr
+          td
+            strong Puntaje
+          each item in results
+            td(class="center aligned")= item.total
+
+
+block scripts
+  script(
+    src='https://code.jquery.com/jquery-3.1.1.min.js'
+    integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8='
+    crossorigin='anonymous'
+  )
+  script(
+    src='https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js'
+  )

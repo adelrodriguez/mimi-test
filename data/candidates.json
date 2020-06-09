@@ -1,0 +1,366 @@
+[
+  {
+    "id": "candidate1",
+    "name": "Penn Co",
+    "choices": {
+      "question1": [
+        {
+          "id": "",
+          "label": "Mozzarella",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Gouda",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Parmesano",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Suizo",
+          "score": -1
+        }
+      ],
+      "question2": [
+        {
+          "id": "",
+          "label": "Azul",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Rojo",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Blanco",
+          "score": -1
+        }
+      ],
+      "question3": [
+        {
+          "id": "",
+          "label": "Viernes",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Sábado",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Domingo",
+          "score": 0
+        }
+      ],
+      "question4": [
+        {
+          "id": "kRS008zQldHz",
+          "label": "De acuerdo",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Desacuerdo",
+          "score": 0
+        }
+      ],
+      "question5": [
+        {
+          "id": "",
+          "label": "Vino",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Cerveza",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Ron",
+          "score": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "candidate2",
+    "name": "I've been a bear",
+    "choices": {
+      "question1": [
+        {
+          "id": "",
+          "label": "Mozzarella",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Gouda",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Parmesano",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Suizo",
+          "score": 0
+        }
+      ],
+      "question2": [
+        {
+          "id": "",
+          "label": "Azul",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Rojo",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Blanco",
+          "score": 1
+        }
+      ],
+      "question3": [
+        {
+          "id": "",
+          "label": "Viernes",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Sábado",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Domingo",
+          "score": -1
+        }
+      ],
+      "question4": [
+        {
+          "id": "kRS008zQldHz",
+          "label": "De acuerdo",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Desacuerdo",
+          "score": 0
+        }
+      ],
+      "question5": [
+        {
+          "id": "",
+          "label": "Vino",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Cerveza",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Ron",
+          "score": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "candidate3",
+    "name": "León-O",
+    "choices": {
+      "question1": [
+        {
+          "id": "",
+          "label": "Mozzarella",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Gouda",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Parmesano",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Suizo",
+          "score": 0
+        }
+      ],
+      "question2": [
+        {
+          "id": "",
+          "label": "Azul",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Rojo",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Blanco",
+          "score": 0
+        }
+      ],
+      "question3": [
+        {
+          "id": "",
+          "label": "Viernes",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Sábado",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Domingo",
+          "score": 1
+        }
+      ],
+      "question4": [
+        {
+          "id": "kRS008zQldHz",
+          "label": "De acuerdo",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Desacuerdo",
+          "score": -1
+        }
+      ],
+      "question5": [
+        {
+          "id": "",
+          "label": "Vino",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Cerveza",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Ron",
+          "score": -1
+        }
+      ]
+    }
+  },
+  {
+    "id": "candidate4",
+    "name": "Billy Brownie",
+    "choices": {
+      "question1": [
+        {
+          "id": "",
+          "label": "Mozzarella",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Gouda",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Parmesano",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Suizo",
+          "score": 1
+        }
+      ],
+      "question2": [
+        {
+          "id": "",
+          "label": "Azul",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Rojo",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Blanco",
+          "score": 1
+        }
+      ],
+      "question3": [
+        {
+          "id": "",
+          "label": "Viernes",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Sábado",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Domingo",
+          "score": 0
+        }
+      ],
+      "question4": [
+        {
+          "id": "kRS008zQldHz",
+          "label": "De acuerdo",
+          "score": 0
+        },
+        {
+          "id": "",
+          "label": "Desacuerdo",
+          "score": -1
+        }
+      ],
+      "question5": [
+        {
+          "id": "",
+          "label": "Vino",
+          "score": 1
+        },
+        {
+          "id": "",
+          "label": "Cerveza",
+          "score": -1
+        },
+        {
+          "id": "",
+          "label": "Ron",
+          "score": 1
+        }
+      ]
+    }
+  }
+]
