@@ -1,0 +1,38 @@
+.table-container
+  table#table.ui.table.unstackable
+    thead.ui.center.aligned
+      th
+      each item in results
+        th
+          .ui.center.aligned
+            img.ui.centered.tiny.circular.image(src=`/images/${item.id}.jpg`)
+            strong= item.name
+    tbody
+      tr#affinity-row
+        td
+          strong % de afinidad
+        each item in results
+          td.center.aligned
+            strong= item.percentage
+      each val, index in questions
+        tr
+          td
+            p
+              strong= questions[index]
+              br
+              em= choices[index]
+          each item in results
+            if item.scores[index] === -1
+              td.center.aligned.negative
+                i.close.icon
+            else if item.scores[index] === 0
+              td.center.aligned.warning
+                i.minus.icon
+            else
+              td.center.aligned.positive
+                i.check.icon
+    tfoot
+      th
+      each item in results
+        th(class='center aligned')
+          strong= item.total
