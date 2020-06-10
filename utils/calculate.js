@@ -4,14 +4,14 @@ const _ = require('lodash');
 function calculate(answers) {
   const choices = answers.map(item => _.get(item, 'choice.label', ''));
 
-  const results = candidates.map((candidate) => {
+  const results = candidates.map(({ name, id, choices }) => {
     let percentage;
   
     const scores = answers.map((answer) => {
       const questionId = _.get(answer, 'field.ref');
       const choice = _.get(answer, 'choice');
 
-      const chosen = candidate.choices[questionId].find(c => (
+      const chosen = choices[questionId].find(c => (
         c.id === choice.id || c.label === choice.label
       ));
 
@@ -26,7 +26,7 @@ function calculate(answers) {
       percentage = `${(total / answers.length) * 100}%`
     }
 
-    return { name: candidate.name, scores, total, percentage };
+    return { id, name, scores, total, percentage };
   });
 
   results.sort((a, b) => {
