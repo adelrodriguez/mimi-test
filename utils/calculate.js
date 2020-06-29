@@ -3,7 +3,11 @@ const questions = require('../data/questions.json');
 const _ = require('lodash');
 
 function calculate(answers) {
-  const choices = answers.map((item) => _.get(item, 'choice.label', ''));
+  const choices = answers
+    // Map the users choices
+    .map((item) => _.get(item, 'choice.label', ''))
+    // Filter questions without choices (example, legal)
+    .filter((item) => !!item);
 
   const results = candidates.map(({ name, id, choices }) => {
     const scores = answers
