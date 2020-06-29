@@ -53,20 +53,12 @@ main p {
   font-family: 'ITC Lubalin Graph Std';
   font-weight: bold;
   font-size: 4rem;
-  margin-top: 2rem;
-}
-
-#title img {
-  height: 100px;
+  margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
   #title h1 {
     font-size: 2rem;
-  }
-
-  #title img {
-    height: 50px;
   }
 }
 
