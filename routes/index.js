@@ -1,4 +1,4 @@
-const uuid = require('uuid').v4;
+const shortid = require('shortid');
 const express = require('express');
 const axios = require('axios');
 const _ = require('lodash');
@@ -48,7 +48,7 @@ router.get('/:id', async (req, res, next) => {
 
 // Typeform Form
 router.get('/', (req, res, next) => {
-  const url = process.env.TYPEFORM_FORM_URL + uuid();
+  const url = process.env.TYPEFORM_FORM_URL + shortid.generate();
 
   res.render('index', { url });
 });
