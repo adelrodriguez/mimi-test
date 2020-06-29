@@ -9,6 +9,10 @@ const questions = require('../data/questions.json');
 
 const router = express.Router();
 
+router.get('/descargo', (req, res, next) => {
+  res.render('disclaimer');
+});
+
 router.get('/:id', async (req, res, next) => {
   try {
     const id = req.params.id;
