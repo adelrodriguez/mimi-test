@@ -22,7 +22,7 @@ function calculate(answers) {
 
     const total = _.sum(scores);
 
-    const percentage = `${Math.round((total / answers.length) * 100)}%`;
+    const percentage = `${Math.round((total / scores.length) * 100)}%`;
 
     return { id, name, scores, total, percentage };
   });
