@@ -1,7 +1,16 @@
 {
-  "question1": "¿Cuál queso te gusta más?",
-  "question2": "¿Cuál es tu color preferido?",
-  "question3": "¿Cuál es el mejor día de la semana?",
-  "question4": "La montaña es mejor que la playa.",
-  "question5": "¿Qué prefieres beber?"
+  "corrupcion_1": "¿¿Consideras que se debe modificar la composición del Consejo Nacional de la Magistratura?",
+  "seguridad_ciudadana": "Respecto al narcotráfico, ¿cuál debe ser el enfoque de un nuevo Gobierno para su combate?",
+  "salud": "¿Cuáles medidas entiendes son pertinentes para incrementar el acceso de servicios de salud en los barrios y comunidades?",
+  "presupuesto": "¿Cuáles elementos te parecen más adecuados para abordar el tema de la deuda pública y calidad del gasto público?",
+  "vivienda": "En cuanto al déficit habitacional que enfrenta nuestro país, ¿cuál consideras que debería ser el enfoque de un nuevo gobierno?",
+  "genero_1": "Sobre la eliminación de la violencia en contra de la mujer en todas sus formas y el presupuesto, ¿con cuál de estas medidas te identificas más?",
+  "genero_2": "¿Entiendes que un plan de gobierno debe hacer mención de la población LGBTI?",
+  "corrupcion_2": "En la lucha contra la corrupción, ¿cuál enunciado te parece más apropiado?",
+  "energia": "¿Cuáles son las medidas que consideras deberían implementarse en materia de energías renovables?",
+  "medio_ambiente": "¿Qué medida se debe tomar para educar a la ciudadanía sobre la importancia de conservar el medio ambiente?",
+  "educacion": "¿Cuál consideras un paso importante para elevar la calidad de la educación primaria y secundaria?",
+  "discapacidad": "¿Cuál de las siguientes propuestas sobre políticas de acceso a oportunidades técnicas/profesionales para personas con discapacidad te parece más relevante?",
+  "personas_de_edad": "¿Cuál de estas propuestas te parecen más relevantes para la mejora en la calidad de vida de las personas de edad y la seguridad social?",
+  "infancia": "¿Cuál de estas propuestas te parecen más relevantes para la mejora en la calidad de vida de la infancia con enfoque en la salud?"
 }

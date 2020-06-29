@@ -1,366 +1,122 @@
 [
   {
     "id": "candidate1",
-    "name": "Penn Co",
+    "name": "Gonzalo Castillo",
     "choices": {
-      "question1": [
-        {
-          "id": "",
-          "label": "Mozzarella",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Gouda",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Parmesano",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Suizo",
-          "score": -1
-        }
-      ],
-      "question2": [
-        {
-          "id": "",
-          "label": "Azul",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Rojo",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Blanco",
-          "score": -1
-        }
-      ],
-      "question3": [
-        {
-          "id": "",
-          "label": "Viernes",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Sábado",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Domingo",
-          "score": 0
-        }
-      ],
-      "question4": [
-        {
-          "id": "kRS008zQldHz",
-          "label": "De acuerdo",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Desacuerdo",
-          "score": 0
-        }
-      ],
-      "question5": [
-        {
-          "id": "",
-          "label": "Vino",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Cerveza",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Ron",
-          "score": 0
-        }
-      ]
+      "corrupcion_1": "No es prioridad.",
+      "corrupcion_2": "Fortalecer y actualizar el marco legal, la profesionalización y confianza otorgada a los responsables de aplicar la justicia. Establecer equipos de inteligencia dentro de las instituciones dedicadas a la prevención de la corrupción administrativa.",
+      "presupuesto": "Controles y límites para determinadas compras en el Estado. Un marco legal para limitar el déficit fiscal de cada año, según el ciclo económico, promoviendo superávits primarios en los años de ciclo positivo.",
+      "salud": "Facilitar el acceso al sistema público de salud, a través del desarrollo de centrales de citas que modulen y gestionen las referencias y contrarreferencias entre los distintos niveles de complejidad existentes y el nivel de urgencia de las mismas.",
+      "seguridad_ciudadana": "Elaborar y/o actualizar leyes y reglamentos relativos a la persecución del narcotráfico, las sustancias controladas y las extradiciones por casos criminales. Fomentar la cooperación bilateral domínico-haitiana y la colaboración fronteriza.",
+      "vivienda": "Crear un plan nacional de construcción masiva de 100 mil viviendas. Continuidad a los proyectos de viviendas de bajo costo, en alianza público privada. Programa de viviendas rurales con tecnología apropiada, banco de materiales ecológicos.",
+      "genero_1": "Dotar con las partidas presupuestarias necesarias para todo lo relativo a la prevención, atención, recuperación integral de las víctimas y a su asistencia social.",
+      "genero_2": "No",
+      "energia": "Aumentar generación y diversificar producción de bajo costo, con énfasis en renovables, seguridad, eficiencia, y sostenibilidad medioambiental. Implementar licitaciones. Programa de concienciación al uso eficiente de energía y respeto al medioambiente.",
+      "medio_ambiente": "Crear un programa educativo de concienciación integral que promoverá una cultura de uso eficiente de energía incluyendo el uso racional y respeto por el medio ambiente.",
+      "educacion": "Garantizar el desarrollo y formación de docentes de educación inicial y primaria, con formadores expertos nacionales e internacionales, y con oportunidades de perfeccionamiento en el extranjero, logrando certificación y desarrollo de la carrera docente.",
+      "discapacidad": "Asegurar igual acceso a la educación técnico-profesional a personas en vulnerabilidad rural, discapacidad, conflicto con la ley, madres y padres en edad temprana. Promover la participación en el mercado laboral de las mujeres con discapacidad.",
+      "personas_de_edad": "Ampliar el programa de pensiones solidarias para envejecientes en pobreza extrema y personas con discapacidad severa, en el marco del Sistema Dominicano de Seguridad Social.",
+      "infancia": "Seguimiento del desarrollo del individuo desde el embarazo, para ofrecerle atención integral y oportuna. Especializar personal médico en atenciones requeridas durante el embarazo y parto para reducir la mortalidad natal y complicaciones asociadas."
     }
   },
   {
     "id": "candidate2",
-    "name": "I've been a bear",
+    "name": "Luis Abinader",
     "choices": {
-      "question1": [
-        {
-          "id": "",
-          "label": "Mozzarella",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Gouda",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Parmesano",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Suizo",
-          "score": 0
-        }
-      ],
-      "question2": [
-        {
-          "id": "",
-          "label": "Azul",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Rojo",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Blanco",
-          "score": 1
-        }
-      ],
-      "question3": [
-        {
-          "id": "",
-          "label": "Viernes",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Sábado",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Domingo",
-          "score": -1
-        }
-      ],
-      "question4": [
-        {
-          "id": "kRS008zQldHz",
-          "label": "De acuerdo",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Desacuerdo",
-          "score": 0
-        }
-      ],
-      "question5": [
-        {
-          "id": "",
-          "label": "Vino",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Cerveza",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Ron",
-          "score": 0
-        }
-      ]
+      "corrupcion_1": "Sí, debe excluirse a la figura del Procurador General de la República del CNM.",
+      "corrupcion_2": "Aplicar en forma rigurosa la legislación anticorrupción. Los casos deben ser llevados a juicio, independientemente de quién lo cometió, incluyendo la policía, fiscales y jueces, quienes deben cumplir con las sentencias establecidas por la ley aplicable.",
+      "presupuesto": "Control riguroso del gasto público y eliminación de duplicidad de funciones en el sector público. Presupuestos participativos para incorporar territorios y sectores, medio ambiente, salud, educación, vivienda, juventud, y otros socialmente vulnerables.",
+      "salud": "Crear una red público-privada de atención primaria en lugares donde el servicio público sea deficiente. Entrenar promotores de salud en barrios con UNAP y facilitar a  trabajadores de salud laborar cerca de donde residen. Más Farmacias del Pueblo.",
+      "seguridad_ciudadana": "Especialización de fiscales por tipo de delito. Desarrollar agenda de seguridad con Centroamérica y América Latina. Eliminar pensiones a militares asociados al crimen organizado. Ejecutar plan con sectores sobre temas como narcotráfico y la frontera.",
+      "vivienda": "Focalizar las inversiones sociales. Ampliar incentivos para facilitar proyectos de inversión público-privada para clase media. Fomentar construcción y mejoras de viviendas y facilitar acceso. Proyectos habitacionales para manejar densificación.",
+      "genero_1": "Garantizar presupuesto para la eliminación de la violencia en contra de la mujer.",
+      "genero_2": "Sí",
+      "energia": "Crédito fiscal de 75% para inversión en renovables. Expandir generación nacional de mínimo costo para alcanzar al 2030 el 25% en fuentes renovables, y propiciar inversión privada con primas e incentivos. Obligar a EDES a contratar mediante licitaciones.",
+      "medio_ambiente": "Requerir a graduandos de bachiller cumplir con horas obligatorias de servicio comunitario, abordando siembra de árboles, limpieza de playas, jornadas de concientización del uso del agua, reducción del plástico y promoción de movilidad eléctrica.",
+      "educacion": "Revisar los programas educativos (primaria y secundaria) para adaptarlos a las demandas de un mundo globalizado y reducir la brecha entre nuestros estudiantes y el resto de América Latina.",
+      "discapacidad": "Implementar cuotas de empleo establecidas en Ley 5-13, Art.1934. El 5% de las instituciones gubernamentales y el 2% del sector privado ocuparse por personas con algún grado de discapacidad.",
+      "personas_de_edad": "Establecer una pensión solidaria equivalente al 60% del salario mínimo público. Garantizar que el 100% de los dominicanos y residentes legales en el país, sean incorporados al Sistema Dominicano de Seguridad Social, con aseguramiento universal en salud.",
+      "infancia": "Garantizar la atención integral a la primera infancia, enfocándose en la nutrición. Garantizar el acceso a recreación sana y estilos de vida saludable de todos los niños y niñas. Enfrentar la alta tasa de mortalidad materna del país."
     }
   },
   {
     "id": "candidate3",
-    "name": "León-O",
+    "name": "Leonel Fernández",
     "choices": {
-      "question1": [
-        {
-          "id": "",
-          "label": "Mozzarella",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Gouda",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Parmesano",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Suizo",
-          "score": 0
-        }
-      ],
-      "question2": [
-        {
-          "id": "",
-          "label": "Azul",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Rojo",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Blanco",
-          "score": 0
-        }
-      ],
-      "question3": [
-        {
-          "id": "",
-          "label": "Viernes",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Sábado",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Domingo",
-          "score": 1
-        }
-      ],
-      "question4": [
-        {
-          "id": "kRS008zQldHz",
-          "label": "De acuerdo",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Desacuerdo",
-          "score": -1
-        }
-      ],
-      "question5": [
-        {
-          "id": "",
-          "label": "Vino",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Cerveza",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Ron",
-          "score": -1
-        }
-      ]
+      "corrupcion_1": "No es necesario. Lo que se necesita es que el Procurador General de la República sea independiente como lo establece la Constitución.",
+      "corrupcion_2": "Rediseñar y actualizar la política de persecución y legislación penal, tipificar los beneficios económicos de operaciones en una entidad pública, tráfico de influencias, recepción ilegal de beneficios, corrupción pasiva y dar ventajas a terceros.",
+      "presupuesto": "Balance primario superavitario y presupuestario equilibrado para reducir la deuda pública. Pacto Fiscal con reglas sencillas y flexibles; mejorar recaudaciones, impulsar inversionesón y empleo. Incrementar inversión pública concon finanzas públicas sostenibles.",
+      "salud": "Implementar Policlínicos; uno por cada hospital de referencia regional y uno por cada hospital referencia provincial. Instalar 40 Farmacias del Pueblo en los municipios que no cuenten con alguna.",
+      "seguridad_ciudadana": "Realizar campañas de estímulo a denuncias contra crímenes de tráfico de drogas.",
+      "vivienda": "Considerar la organización urbana para lograr un cambio en la elección de terrenos para construcción. Desarrollo tecnológico de industria de materiales de construcción. Fondo para desarrollo de estudios y formulación de planes urbanos de desarrollo.",
+      "genero_1": "Incluir en el presupuesto de seguridad partidas destinadas a género.",
+      "genero_2": "No",
+      "energia": "Transformación de la matriz energética, fomentando la generación de energía limpia y económicamente sostenible. Mayor presencia de energía renovable y gas natural, sobre todo la energía fotovoltaica y termosolar, debido al potencial solar del país.",
+      "medio_ambiente": "Fomentar carreras para el estudio de medio ambiente, sus beneficios e impacto sobre la economía y la calidad de la vida.",
+      "educacion": "Crear espacios de apoyo pedagógico, promoviendo la participación de los estudiantes en los programas que requieran acompañamientos en las diferentes áreas curriculares.",
+      "discapacidad": "Elaborar diagnósticos sobre el estado y uso de espacios públicos en la ciudad, para diseñar un proyecto de rehabilitación, teniendo en cuenta las necesidades de las personas discapacitadas y adultos mayores.",
+      "personas_de_edad": "Afiliar 3 millones de dominicanos a la Seguridad Social, incluyendo el acceso prioritario a mayores de 65 años, así como al trato afectuoso y digno, el ejercicio pleno de sus derechos políticos, sociales, culturales, laborales, de diversión y asociación.",
+      "infancia": "Garantizar acceso desde la primera infancia, a oportunidades de nutrición, salud, bienestar, educación y seguridad de calidad. Puesta en práctica de estrategias de prevención para disminuir las tasas de mortalidad materna, neonatal e infantil."
     }
   },
   {
     "id": "candidate4",
-    "name": "Billy Brownie",
+    "name": "Guillermo Moreno",
     "choices": {
-      "question1": [
-        {
-          "id": "",
-          "label": "Mozzarella",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Gouda",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Parmesano",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Suizo",
-          "score": 1
-        }
-      ],
-      "question2": [
-        {
-          "id": "",
-          "label": "Azul",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Rojo",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Blanco",
-          "score": 1
-        }
-      ],
-      "question3": [
-        {
-          "id": "",
-          "label": "Viernes",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Sábado",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Domingo",
-          "score": 0
-        }
-      ],
-      "question4": [
-        {
-          "id": "kRS008zQldHz",
-          "label": "De acuerdo",
-          "score": 0
-        },
-        {
-          "id": "",
-          "label": "Desacuerdo",
-          "score": -1
-        }
-      ],
-      "question5": [
-        {
-          "id": "",
-          "label": "Vino",
-          "score": 1
-        },
-        {
-          "id": "",
-          "label": "Cerveza",
-          "score": -1
-        },
-        {
-          "id": "",
-          "label": "Ron",
-          "score": 1
-        }
-      ]
+      "corrupcion_1": "Sí, se debe excluir de entre sus miembros al Presidente de la República y el Procurador General de la República.",
+      "corrupcion_2": "Investigar y enjuiciar los actos de corrupción denunciados los últimos 20 años. Extirpar el nepotismo, botellas y nominillas. Mayor transparencia en compras públicas, crear la veeduría ciudadana independiente. Imprescriptibilidad de actos de corrupción.",
+      "presupuesto": "Eliminar entidades públicas con funciones duplicadas sin reales atribuciones y salarios de lujo del Estado. Prohibir los sueldos y pensiones violatorios al régimen establecido. Reestructurar la deuda pública con la banca multilateral y extranjera.",
+      "salud": "Implementar una estrategia de atención primaria desde la comunidad basándose en un ejército de promotores de salud, movilización de voluntarios y asegurar un médico de familia en todos los barrios y comunidades locales.",
+      "seguridad_ciudadana": "Ejecutar una decidida y definida política de persecución del narcotráfico. Extirpar y perseguir en la Policía y en los organismos de seguridad del Estado cualquier complicidad por acción y omisión con la delincuencia y otras formas de crimen organizado.",
+      "vivienda": "No es prioridad.",
+      "genero_1": "Transversalizar el enfoque de género en el Presupuesto General del Estado que se traduzca en políticas de impacto positivo en condiciones de vida de las mujeres.",
+      "genero_2": "No",
+      "energia": "Electrificar por completo el país, impulsando un sistema de generación y distribución de energía eficiente al precio promedio de la región y que no dañe el medio ambiente.",
+      "medio_ambiente": "No es prioridad.",
+      "educacion": "Acceso equitativo a educación salud, seguridad social, derecho alimentación, agua potable, derecho a la vivienda y transporte seguro, niñez, envejecientes, discapacitados.",
+      "discapacidad": "Acceso equitativo a educación salud, seguridad social, derecho alimentación, agua potable, derecho a la vivienda y transporte seguro, niñez, envejecientes, discapacitados.",
+      "personas_de_edad": "Acceso equitativo a educación salud, seguridad social, derecho alimentación, agua potable, derecho a la vivienda y transporte seguro, niñez, envejecientes, discapacitados.",
+      "infancia": "Acceso equitativo a educación salud, seguridad social, derecho alimentación, agua potable, derecho a la vivienda y transporte seguro."
+    }
+  },
+  {
+    "id": "candidate5",
+    "name": "Juan Cohen",
+    "choices": {
+      "corrupcion_1": "No es prioridad.",
+      "corrupcion_2": "Crear un sistema judicial más fuerte e independiente que pueda sancionar a los corruptos. Crear un Consejo Ciudadano Ministerial compuesto por ciudadanos ejemplares y con gran trayectoria, quienes se encargarán de postular y evaluar a los ministros.",
+      "presupuesto": "Desarrollar un plan de fortalecimiento institucional, en donde se mantenga la eficiencia y transparencia en el manejo del gasto público, apoyados en la participación democrática de la ciudadanía.",
+      "salud": "Desarrollar Plan Médico de la Familia, a cargo de un especialista de salud, el cual atenderá los casos leves, sin que la ciudadanía tengan que trasladarse a un centro hospitalario. Asignarle un consultorio y una enfermera.",
+      "seguridad_ciudadana": "No es prioridad.",
+      "vivienda": "Hacer alianzas, ley de asociación pública privada, para el desarrollo de viviendas a favor de necesitados.",
+      "genero_1": "No es prioridad.",
+      "genero_2": "No",
+      "energia": "Adoptar un modelo de incentivos, especialmente a las energías emergentes con mayor grado de innovación. Producción de electricidad a partir de energías sostenibles. Pueden satisfacer la creciente demanda sin perjudicar la demanda futura.",
+      "medio_ambiente": "No es prioridad.",
+      "educacion": "Garantizar la vida más saludable y segura con políticas públicas a favor de la maternidad y la niñez, de los discapacitados, de las personas de la tercera edad entre otros.",
+      "discapacidad": "Garantizar la vida más saludable y segura con políticas públicas a favor de la maternidad y la niñez, de los discapacitados, de las personas de la tercera edad entre otros.",
+      "personas_de_edad": "Establecer políticas públicas para garantizar la vida más saludable y segura de personas de la tercera edad con programas para garantizar la protección social, garantizando un seguro de salud digno, brindándoles servicios de atención de primera calidad.",
+      "infancia": "Garantizar la vida más saludable y segura con políticas públicas a favor de la maternidad y la niñez, de los discapacitados, de las personas de la tercera edad entre otros."
+    }
+  },
+  {
+    "id": "candidate6",
+    "name": "Ismael Reyes",
+    "choices": {
+      "corrupcion_1": "No es prioridad.",
+      "corrupcion_2": "Hacer un nuevo Contrato Social, que implique apoderar al pueblo, para que ayude a hacer las profundas reformas estructurales que el país necesita para su modernización y desarrollo. Independizar el Poder Judicial para luchar contra la corrupción.",
+      "presupuesto": "No es prioridad.",
+      "salud": "Impulsar en el país la seguridad social, mediante un sistema de protección integral para la salud de la familia dominicana.",
+      "seguridad_ciudadana": "Educación: meta principal para la prevención. Modernizar y tecnificar las agencias nacionales encargadas de combatir el narcotráfico. Disciplina para escoger los agentes especiales que trabajen contra el narcotráfico. Vigilancia de nuestras fronteras.",
+      "vivienda": "No es prioridad.",
+      "genero_1": "No es prioridad.",
+      "genero_2": "No",
+      "energia": "No es prioritario.",
+      "medio_ambiente": "Desarrollar, a través del Ministerio de Medio Ambiente, un vasto plan de educación para una vida eco-amigable.",
+      "educacion": "La inversión en tecnología para la educación será prioritaria, junto a la readecuación de los currículos de estudios, para producir técnicos y profesionales acorde con los requerimientos del desarrollo nacional.",
+      "discapacidad": "Crear las bases de armonía y solidaridad entre los dominicanos, promoviendo desde el Estado políticas concretas para el bienestar de la familia, impulsando programas que beneficien a la niñez, a la juventud, a los discapacitados y a los envejecientes.",
+      "personas_de_edad": "Crear las bases de armonía y solidaridad social entre todos los dominicanos, promoviendo desde el Estado políticas para el bienestar de la familia, impulsando programas que beneficien a la niñez, a la juventud, a los discapacitados y a los envejecientes.",
+      "infancia": "Promover desde el Estado políticas concretas para el bienestar general de la familia, impulsando programas que beneficien a la niñez, a la juventud, a los discapacitados y a los envejecientes."
     }
   }
 ]
