@@ -22,15 +22,12 @@
               br
               em= choices[index]
           each item in results
-            if item.scores[index] === -1
-              td.center.aligned.negative
-                i.close.icon
-            else if item.scores[index] === 0
-              td.center.aligned.warning
-                i.minus.icon
-            else
+            if item.scores[index]
               td.center.aligned.positive
                 i.check.icon
+            else
+              td.center.aligned.warning
+                i.minus.icon
     tfoot
       th
       each item in results

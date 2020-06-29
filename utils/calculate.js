@@ -1,39 +1,42 @@
 const candidates = require('../data/candidates.json');
+const questions = require('../data/questions.json');
 const _ = require('lodash');
 
 function calculate(answers) {
-  const choices = answers.map(item => _.get(item, 'choice.label', ''));
+  const choices = answers.map((item) => _.get(item, 'choice.label', ''));
 
   const results = candidates.map(({ name, id, choices }) => {
-    let percentage;
-  
-    const scores = answers.map((answer) => {
-      const questionId = _.get(answer, 'field.ref');
-      const choice = _.get(answer, 'choice');
+    const scores = answers
+      // Eliminate questions that have values that are not multiple choice
+      .filter((answer) => !!answer.choice)
+      .map((answer) => {
+        const questionId = _.get(answer, 'field.ref');
+        const choice = _.get(answer, 'choice');
 
-      const chosen = choices[questionId].find(c => (
-        c.id === choice.id || c.label === choice.label
-      ));
-
-      return chosen.score;
-    });
+        return Number(choices[questionId] === choice.label);
+      });
 
     const total = _.sum(scores);
 
-    if (total <= 0) {
-      percentage = '0%';
-    } else {
-      percentage = `${(total / answers.length) * 100}%`
-    }
+    const percentage = `${Math.round((total / answers.length) * 100)}%`;
 
     return { id, name, scores, total, percentage };
   });
 
+  // Sort questions according to answers order
+  const sortedQuestions = answers
+    .filter((answer) => !!answer.choice)
+    .map((answer) => {
+      const questionId = _.get(answer, 'field.ref');
+
+      return questions[questionId];
+    });
+
   results.sort((a, b) => {
     return b.total - a.total;
-  })
+  });
 
-  return { results, choices };
+  return { results, choices, questions: sortedQuestions };
 }
 
 module.exports = calculate;

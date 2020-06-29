@@ -5,7 +5,6 @@ const _ = require('lodash');
 
 const cache = require('../utils/cache');
 const calculate = require('../utils/calculate');
-const questions = require('../data/questions.json');
 
 const router = express.Router();
 
@@ -37,9 +36,9 @@ router.get('/:id', async (req, res, next) => {
       }
     }
 
-    const { results, choices } = calculate(answers);
+    const { questions, results, choices } = calculate(answers);
 
-    res.render('results', { results, questions: Object.values(questions), choices });
+    res.render('results', { results, questions, choices });
   } catch (error) {
     error.status = 404;
 
