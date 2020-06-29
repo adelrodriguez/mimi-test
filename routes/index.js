@@ -8,7 +8,7 @@ const calculate = require('../utils/calculate');
 
 const router = express.Router();
 
-router.get('/disclaimer', (req, res, next) => {
+router.get('/descargo', (req, res, next) => {
   res.render('disclaimer');
 });
 
