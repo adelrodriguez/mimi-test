@@ -37,16 +37,36 @@ body {
   -o-background-size: cover;
 }
 
+main p {
+  margin-top: 1rem;
+  color: black;
+}
+
 #title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#title h1 {
   font-family: 'ITC Lubalin Graph Std';
   font-weight: bold;
   font-size: 4rem;
   margin-top: 2rem;
 }
 
+#title img {
+  height: 100px;
+}
+
 @media only screen and (max-width: 768px) {
-  #title {
-    font-size: 3rem;
+  #title h1 {
+    font-size: 2rem;
+  }
+
+  #title img {
+    height: 50px;
   }
 }
 

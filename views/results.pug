@@ -14,11 +14,16 @@ block styles
 
 block content
   main.ui.container
-    h1#title.ui.center.aligned.header Tus 
-      span.highlight-yellow resultados
+    #title
+      img(src="/images/logo.png")
+      h1.ui.center.aligned.header Tus 
+        span.highlight-yellow resultados
+      img(src="/images/gssd.png")
     include list.pug
     include table.pug
     include about.pug
+    p Al recibir estos resultados, has aceptado 
+      a(href="/descargo", target="_blank") nuestro descargo de responsabilidad.
   footer.ui.container.center.aligned
     include share.pug
     a#mimi-button.huge.ui.button(
