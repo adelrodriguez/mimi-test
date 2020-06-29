@@ -1,0 +1,7 @@
+#list.ui.relaxed.massive.list
+  each item in results
+    .item
+      img.ui.tiny.circular.image(src=`/images/${item.id}.jpg`)
+      .middle.aligned.content
+        .header= item.name
+        .description= item.percentage

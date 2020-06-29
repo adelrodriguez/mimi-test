@@ -44,6 +44,12 @@ body {
   margin-top: 2rem;
 }
 
+@media only screen and (max-width: 768px) {
+  #title {
+    font-size: 3rem;
+  }
+}
+
 #about,
 #about > .header,
 #linkInput,
@@ -51,6 +57,23 @@ body {
 #mimi-button,
 #error-button {
   font-family: 'Poppins';
+}
+
+#list {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+#list .item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+#list .item .header {
+  font-family: 'Poppins' !important;
+  font-weight: bold;
 }
 
 .table-container {
@@ -99,6 +122,16 @@ body {
 
 #mimi-button:hover {
   background-color: #ffc76d;
+}
+
+@media only screen and (max-width: 768px) {
+  #downloadButton {
+    display: none;
+  }
+
+  #list {
+    display: flex;
+  }
 }
 
 footer {
