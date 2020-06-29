@@ -40,7 +40,6 @@ $('#emailButton').click(function () {
 
 $('#downloadButton').click(function () {
   const el = document.querySelector('main');
-  console.log(el.offsetWidth);
   const options = {
     margin: 15,
     filename: 'resultados.pdf',
