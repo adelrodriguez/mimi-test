@@ -113,6 +113,18 @@ main p {
   color: #ffffff;
 }
 
+#support-button {
+  font-family: 'Poppins' !important;
+  background-color: #8dc5bd;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+#support-button:hover {
+  background-color: #c6dcdb;
+  color: #000000;
+}
+
 /* Share section */
 
 #share-title {
